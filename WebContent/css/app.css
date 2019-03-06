@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+html{
+	background:url("../image/background.jpg");
+  background-size: cover;
+  height:100%;
+}
+#feedback-page{
+	text-align:center;
+}
+
+#form-main{
+	width:100%;
+	float:left;
+	padding-top:0px;
+}
+
+#form-div {
+	background-color:rgba(255,255,255,0.4);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:40px;
+	padding-bottom:40px;
+	width: 350px;
+	float: left;
+	left: 50%;
+	position: absolute;
+    margin-top:30px;
+	margin-left: -260px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+
+
+#button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:right;
+	width: 100%;
+	border: #fbfbfb solid 3px;
+	cursor:pointer;
+	background-color: #009688;
+	color: #fff;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	  margin: 0px auto;
+	  font-weight:700;
+}
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
+
+.sample input {
+	display: none;
+}
+.sample label{
+	display: block;
+	float: left;
+	cursor: pointer;
+	width: 60px;
+	margin-bottom: 30px;
+	padding: 10px;
+	background: #FFFFFF;
+	color: #000000;
+	font-size: 16px;
+	text-align: center;
+	line-height: 1;
+	transition: .2s;
+}
+.sample label:first-of-type{
+	border-radius: 3px 0 0 3px;
+}
+.sample label:last-of-type{
+	border-radius: 0 3px 3px 0;
+}
+.sample input[type="radio"]:checked + .switch-on {
+	background-color: #6495ED;
+	color: #fff;
+}
+.sample input[type="radio"]:checked + .switch-off {
+	background-color: #e67168;
+	color: #fff;
+}
+
+
+.age label {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 40px;
+  border: 2px solid #ccc;
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+input[type="date"] {
+  position: relative;
+  padding: 0 10px;
+  width: 250px;
+  height: 40px;
+  border: 0;
+  background: transparent;
+  box-sizing: border-box;
+  font-size: 30px;
+  color: #999;
+}
+
+.age label::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: -49px;
+  width: 42px;
+  height: 42px;
+
+  background-color: #009688;
+  background-image: url("../image/calendar.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+}
+
+input[type="date"]::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
+input[type="date"]::-webkit-clear-button{
+  -webkit-appearance: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  padding: 0;
+  width: 36px;
+  height: 36px;
+  background: rgba(255, 0, 0, 0.5); // àÍíUîwåiêFÇïtÇØÇƒÅAå©Ç‚Ç∑Ç≠ÇµÇ‹Ç∑
+  color: transparent;
+  cursor: pointer;
+}
+}
+
+h3 {
+  color: #212121
+}

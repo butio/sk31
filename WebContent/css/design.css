@@ -1,0 +1,166 @@
+﻿@charset "utf-8";
+#header{
+	width:100%;
+	height:50px;
+	background-color:moccasin;
+}
+#navi h2{
+	font-size:30px;
+	color:#151515;
+}
+.title{
+	position: absolute; /*ボックスの配置方法(absoluteは絶対位置配置)*/
+    top: auto; /*上からの距離(positionで指定している場合に適用)*/
+    left: 30px; /*右からの距離(positionで指定している場合に適用)*/
+    font-size:28px;
+    line-height:50px;
+}
+.machine {
+    position: absolute; /*ボックスの配置方法(absoluteは絶対位置配置)*/
+    top: auto; /*上からの距離(positionで指定している場合に適用)*/
+    right: 420px; /*右からの距離(positionで指定している場合に適用)*/
+    font-size:18px;
+    line-height:50px;
+}
+.area {
+    position: absolute; /*ボックスの配置方法(absoluteは絶対位置配置)*/
+    top: 0; /*上からの距離(positionで指定している場合に適用)*/
+    right: 300px; /*右からの距離(positionで指定している場合に適用)*/
+    font-size:18px;
+    line-height:50px;
+}
+.all {
+    position: absolute; /*ボックスの配置方法(absoluteは絶対位置配置)*/
+    top: 0; /*上からの距離(positionで指定している場合に適用)*/
+    right: 200px; /*右からの距離(positionで指定している場合に適用)*/
+    font-size:18px;
+    line-height:50px;
+}
+.stock{
+    position: absolute; /*ボックスの配置方法(absoluteは絶対位置配置)*/
+    top: 0; /*上からの距離(positionで指定している場合に適用)*/
+    right: 100px; /*右からの距離(positionで指定している場合に適用)*/
+    font-size:18px;
+    line-height:50px;
+}
+#navi{
+	height:510px;
+	margin-top:20px;
+	padding-left:200px;
+}
+#footer{
+	font-size:15px;
+	margin-top:20px;
+	width:100%;
+	height:40px;
+	text-align: center;
+	background-color:moccasin;
+}
+.copy{
+	line-height:40px;
+}
+.size{ /*h2行間サイズ*/
+	margin-top:35px;
+	margin-bottom:40px
+}
+.navigation{ /*li行間サイズ*/
+	margin-left: 80px ;
+	margin-bottom: 55px;
+	font-size:18px;
+}
+.buyer{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.infomation{
+	margin-top:60px;
+	text-align:center;
+	font-size:18px;
+}
+#earning{
+	margin-top:20px;
+	margin:30px;
+	padding:20px;
+	border:5px solid  #67c5ff;
+	background-color:	;
+}
+.jihanki{
+	margin-top:45px;
+	margin-bottom:40px;
+}
+.item{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.button{
+	display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: black;
+    border: solid 2px #67c5ff;
+    border-radius: 3px;
+    transition: .4s;
+}
+.button:hover {
+    background: #67c5ff;
+    color: white
+}
+.design{
+  background: #FFFDF4;
+  border: 2px solid #67c5ff;
+  border-radius: 5px;
+  color: #0C2245;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  text-align: left;
+  text-indent: 5px;
+  vertical-align: middle;
+  width: 190px;
+}
+.design2{
+  background: #FFFDF4;
+  border: 2px solid #67c5ff;
+  border-radius: 5px;
+  color: #0C2245;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  text-align: left;
+  text-indent: 5px;
+  vertical-align: middle;
+  width: 100px;
+}
+.design3{
+  background: #FFFDF4;
+  border: 2px solid #67c5ff;
+  border-radius: 5px;
+  color: #0C2245;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  text-align: left;
+  text-indent: 5px;
+  vertical-align: middle;
+  width: 60px;
+}
+a{
+    color: DimGray; /*文字色指定*/
+    text-decoration: none; /*テキストの装飾指定(下線、上線など)(noneはなし)*/
+}
+a:hover {
+    text-decoration: none; /*テキストの装飾指定(下線、上線など)(noneはなし)*/
+    font-weight:bold;
+}
+
+tr:nth-child(even) {
+  background: #d9d9d9;
+}
+.message{
+	color:red;
+}
+.menutitle{
+	margin-left:50px;
+	font-size:20px;
+	margin-bottom:30px;
+}
